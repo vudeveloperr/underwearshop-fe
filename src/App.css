@@ -1,0 +1,289 @@
+
+.navbar {
+  background-color:white;
+  font-family: unset;
+  color: black;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.logo{
+  width: auto;
+  height: 150px;
+}
+.about{
+  background-color: rgb(248, 246, 246);
+}
+.footer{
+  background-color: #ffffff;
+}
+
+.login-color{
+  color: rgb(243, 240, 240);
+}
+
+.login
+  .body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  form {
+    border: 3px solid #f1f1f1;
+    border-radius: 15px;
+  }
+
+  input[type=text],
+  input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 7px;
+  }
+
+  button {
+    background-color: #bababa;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 7px;
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
+
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+
+  .container {
+    padding: 16px;
+    border-radius: 5px;
+  }
+
+  .all {
+    margin: 30px 370px 300px 370px;
+  }
+
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+
+/* .img{
+  height: 350px;
+} */
+
+.list-unstyled a{
+  color: black;
+}
+
+.list-color{
+  list-style: none;
+}
+.list-filter{
+  list-style: none;
+}
+
+.card button{
+  color: black ;
+}
+.list-filter a{
+  color: lightslategrey;
+}
+.list-color a{
+  color: lightslategrey;
+}
+
+.info-img h4{
+  color: rgb(232, 236, 240);
+}
+
+.info-img p{
+  color: rgb(56, 50, 50);
+}
+
+.size{
+  padding-top: 50px;
+}
+
+.quantity{
+  padding-top: 20px;
+}
+
+.btn-addtocart{
+  padding-top: 50px;
+  /* padding-left: 200px; */
+}
+
+.btn-secondary{
+  padding: 3px 11px;
+    display: inline-block;
+    border-radius: 15px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    
+}
+
+.info{
+  color: rgb(56, 52, 52);
+  font-family: unset;
+  
+}
+
+.link a:hover{
+  /* color: aqua; */
+  text-decoration: none;
+}
+
+.link-color{
+  color: rgb(104, 98, 98);
+}
+
+.cart-img{
+  width: 100px;
+  height: 100px;
+}
+
+.shopping1{
+  background-color: rgb(245, 243, 243);
+  height: 580px;
+}
+.shopping2{
+  margin: 200px 50px 0 50px;
+  font-family: fantasy;
+  font-size: x-large;
+}
+.shopping3{
+  font-family: fantasy;
+  font-size: xx-large;
+}
+.shopping4{
+  font-family: fantasy;
+  font-size: small;
+}
+.imgHome{
+  width: 850px;
+  height: 580px;
+}
+.images{
+  width: 420px;
+  height: 550px;
+}
+
+.images1{
+  width: 290px;
+  height: 390px;
+}
+.textHome{
+  margin: 70px 0 70px 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 45px;
+}
+.textHome2{
+  margin: 100px 0 30px 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+}
+.contact{
+    background-color: rgb(248, 246, 246);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+.imageConta{
+  width: 830px;
+  height: 580px;
+}
+ 
+.navText{
+  color: #ccc;
+}
+
+.ship1{
+  background-color: rgb(236, 236, 234);
+  padding-top: 100px;
+  height: 800px;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  
+}
+.ship12{
+  font:bold;
+  font-size: 45px;
+  color: rgb(49, 49, 48);
+}
+.ship22{
+  font:bold;
+  font-size: 30px;
+  color: rgb(110, 108, 105);
+  padding-top:80px ;
+}
+.ship23{
+  font-size: 18px;
+  color: rgb(155, 152, 148);
+}
+
+.ship2{
+  background-color: rgb(236, 236, 234);
+  height: 800px;
+  padding-right: 300px;
+}
+
+.StorePolicy1{
+  background-color: rgb(236, 236, 234);
+  padding : 150px 50px 0 50px;
+  height: 1400px;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+.StorePolicy12{
+  font:bold;
+  font-size: 45px;
+  color: rgb(49, 49, 48);
+}
+
+.StorePolicy2{
+  background-color: rgb(236, 236, 234);
+  height: 1400px;
+  padding-right: 300px;
+}
+
+.StorePolicy22{
+  font:bold;
+  font-size: 30px;
+  color: rgb(110, 108, 105);
+  padding-top:80px ;
+}
+.StorePolicy23{
+  font-size: 18px;
+  color: rgb(155, 152, 148);
+}
